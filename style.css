@@ -222,8 +222,7 @@ nav a {
     
     
 }
-.section4 .esq_column,
-.section4 .dir_column{
+.section4 .esq_column{
     display:flex;
     flex-wrap:wrap;
     width:600px;
@@ -232,190 +231,107 @@ nav a {
     align-items:center;
 }
 /* inicio estilo css classes do jogo*/
-.classesjogo1{
+
+.classesjogo1, .classesjogo2, .classesjogo3, .classesjogo4,
+.classesjogo5, .classesjogo6, .classesjogo7, .classesjogo8,
+.classesjogo9, .classesjogo10, .classesjogo11, .classesjogo12,
+.classesjogo13, .classesjogo14, .classesjogo15,.classesjogo16,
+.classesjogo17, .classesjogo18{
     width:140px;
     height:80px;
-    background-image:url(assets/images/1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 80%;
+    opacity: 67%;
     border-radius: 5px;
     
 }
-.classesjogo2{
-    width:140px;
-    height:80px;
-    background-image:url(assets/images/2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
+.classesjogo1{
+    background-image:url(assets/images/1.jpg);
 }
+
+.classesjogo2{
+    background-image:url(assets/images/2.jpg);
+    }
 .classesjogo3{
-    width:140px;
-    height:80px;
-    background-image:url(assets/images/3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
+    background-image:url(assets/images/3.jpg);   
 }
 .classesjogo4{
-    width:140px;
-    height:80px;
-    background-image:url(assets/images/4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
+    background-image:url(assets/images/4.jpg);   
 }
 .classesjogo5{
-    width:140px;
-    height:80px;
-    background-image:url(assets/images/5.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
+    background-image:url(assets/images/5.jpg); 
 }
 .classesjogo6{
-    width:140px;
-    height:80px;
     background-image:url(assets/images/6.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
 }
 .classesjogo7{
-    width:140px;
-    height:80px;
     background-image:url(assets/images/7.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
 }
 .classesjogo8{
-    width:140px;
-    height:80px;
     background-image:url(assets/images/8.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
 }
-.classesjogo9{
-    width:140px;
-    height:80px;
+.classesjogo9{ 
     background-image:url(assets/images/9.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
 }
 .classesjogo10{
-    width:140px;
-    height:80px;
     background-image:url(assets/images/10.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
 }
 .classesjogo11{
-    width:140px;
-    height:80px;
     background-image:url(assets/images/11.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
 }
 .classesjogo12{
-    width:140px;
-    height:80px;
-    background-image:url(assets/images/12.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
+    background-image:url(assets/images/12.jpg);   
 }
 .classesjogo13{
-    width:140px;
-    height:80px;
     background-image:url(assets/images/13.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
-}
+}    
 .classesjogo14{
-    width:140px;
-    height:80px;
-    background-image:url(assets/images/14.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
+    background-image:url(assets/images/14.jpg);  
 }
 .classesjogo15{
-    width:140px;
-    height:80px;
-    background-image:url(assets/images/15.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
+    background-image:url(assets/images/15.jpg);   
 }
 .classesjogo16{
-    width:140px;
-    height:80px;
     background-image:url(assets/images/16.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
 }
 .classesjogo17{
-    width:140px;
-    height:80px;
     background-image:url(assets/images/17.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
-}
+}    
 .classesjogo18{
-    width:140px;
-    height:80px;
     background-image:url(assets/images/18.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 80%;
-    border-radius: 5px;
+}
+
+
+.classesjogo1:hover, .classesjogo2:hover, .classesjogo3:hover, .classesjogo4:hover,
+.classesjogo5:hover, .classesjogo6:hover, .classesjogo7:hover, .classesjogo8:hover,
+.classesjogo9:hover, .classesjogo10:hover, .classesjogo11:hover, .classesjogo12:hover,
+.classesjogo13:hover, .classesjogo14:hover, .classesjogo15:hover,.classesjogo16:hover,
+.classesjogo17:hover, .classesjogo18:hover{
+    opacity:100%;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+   
 }
 /* final estilo css classes do jogo*/
 
-.classesjogo1:hover{
-    opacity:100%;
-    border:1px solid #cbf700;
+.section4 .dir_column{
+    display:flex;
+    flex-wrap:wrap;
+    width:600px;
+    height:550px;
+    justify-content: center;
+    align-items:center;
+
+}
+.section4 .dir_column h1,
+.section4 .dir_column h3{
+    font-family:'Roboto';
+    font-weight:bold ;
+    color:#cbf700;
+    text-shadow:0px 1px 0 white;
+    text-transform: uppercase;
+    word-spacing:2px ;
+    font-size:40px;
+    text-align: center;
 }
