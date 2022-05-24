@@ -222,3 +222,200 @@ nav a {
     
     
 }
+.section4 .esq_column,
+.section4 .dir_column{
+    display:flex;
+    flex-wrap:wrap;
+    width:600px;
+    height:550px;
+    justify-content: space-between;
+    align-items:center;
+}
+/* inicio estilo css classes do jogo*/
+.classesjogo1{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+    
+}
+.classesjogo2{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo3{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo4{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo5{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo6{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo7{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo8{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo9{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo10{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo11{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo12{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo13{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/13.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo14{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/14.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo15{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/15.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo16{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/16.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo17{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/17.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+.classesjogo18{
+    width:140px;
+    height:80px;
+    background-image:url(assets/images/18.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 80%;
+    border-radius: 5px;
+}
+/* final estilo css classes do jogo*/
+
+.classesjogo1:hover{
+    opacity:100%;
+    border:1px solid #cbf700;
+}
