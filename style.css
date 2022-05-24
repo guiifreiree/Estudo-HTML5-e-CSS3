@@ -1,0 +1,183 @@
+header{
+    display:flex;
+    justify-content:center;
+    height:120px;
+
+    
+
+}
+body{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    
+    
+}
+
+.container{
+    display:flex;
+    width:990px;
+    height:100px;
+    justify-content:space-between;
+}
+.cont_esq_2{
+    display:flex;
+    flex-direction: column;
+    width: 175px;
+    height:200px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.section2{
+    display:flex;
+    justify-content:center;
+    
+    width:inherit;
+    background-image: url(assets/images/sram.jpg);
+}
+.container2{
+    display:flex;
+    width:990px;
+    height:670px;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.esq_column,
+.dir_column{
+    display:flex;
+    flex-direction:column;
+    width:350px;
+    height:550px;
+    justify-content: space-between;
+    align-items:flex-start;
+    
+
+}
+.container_esq_baixo{
+    display:flex;
+    width:350px;
+    height:270px;
+    justify-content:space-between;
+    align-items: center;
+    transition:all .5s linear;
+    border-radius: 30px;
+    
+}
+.logo{
+    display:flex;
+    margin-bottom:-70px;
+    
+    align-items:center;
+    
+}
+.logo img{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ .logo img:hover{
+ -webkit-transform: scale(1.1);
+   transform: scale(1.2);
+ }
+.menu{
+    display:flex;
+    align-items:center;
+    font-family:'Bebas Neue';
+    font-size: 30px;
+}
+.menu li{
+    text-transform: uppercase;
+    border-radius:4px;
+}
+
+nav li, nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav ul{
+    display:flex;
+    
+}
+
+nav a {
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    color:#363923;
+    font-weight: bolder;
+    transition:all .2s linear;
+}
+.menu a:hover{
+    color:#fff;
+    background-color:#cbf700;
+    text-shadow: 1px 1px 1px black;
+    border-radius:5px;
+}
+
+
+.esq_column .esq_cima h1{
+    font-family:'Roboto';
+    font-weight:bold ;
+    color:#cbf700;
+    text-shadow:0 1px 0 #fff;
+    font-size:50px;
+}
+.esq_column .esq_cima h3{
+    font-family:'Roboto';
+    font-weight:bold ;
+    color:#cbf700;
+    text-shadow:0 1px 0 #fff;
+    font-size:30px;
+}
+.cont_esq_2  h1{
+    font-family:'Roboto';
+    font-weight:bold ;
+    color:#cbf700;
+    text-shadow:0px 1px 0 white;
+    text-transform: uppercase;
+    word-spacing:2px ;
+    font-size:20px;
+   
+}
+.cont_esq_2 .conhecer a{
+    
+    border-radius: 5px;
+    font-family:'Roboto';
+    font-weight:bold ;
+    background-color: #363923;
+    display:inline-block;
+    padding:15px;
+    align-items: flex-start;
+    color:#fff;
+    
+    
+
+}
+.link1, .link2 {
+    text-decoration:none;
+    
+}
+.link1:visited, .link2:visited{
+    text-decoration:none;
+}
+.conhecer a{
+    transition: all .3s linear;
+}
+.conhecer .link2:hover{
+    background-color: #cbf700;
+    border-radius: 5px;
+    border:3px solid #fff;
+    text-shadow: 0 1px 0 #000;
+}
+.container_esq_baixo:hover{
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius:30px;
+}
+
+
+ .section3{
+    background-image: url(assets/images/divisao1.jpg);
+ }
