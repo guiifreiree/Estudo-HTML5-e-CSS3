@@ -414,3 +414,40 @@ nav a {
     background-color:rgba(61, 60, 60, 0.76);
     border-radius: 30px;
 }
+footer{
+    display:flex;
+    justify-content:center;
+    height:194px;
+    background-color: #000;
+    
+}
+
+footer .container{
+    display:flex;
+    width:990px;
+    height:194px;
+    justify-content:space-between;
+    align-items: center;
+   
+}
+footer a{
+    text-decoration: none;
+    
+}
+footer a:hover{
+    text-decoration: none;
+
+}
+footer ul{
+    list-style: none;
+}
+footer label{
+    font-family:'Roboto';
+    font-weight:bold ;
+    color:white;
+    text-shadow:0px 1px 0 #cbf700;
+    text-transform: uppercase;
+    word-spacing:2px ;
+    font-size:20px;
+    text-align: center;
+}
