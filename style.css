@@ -72,6 +72,18 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.container4{
+    display:flex;
+    flex-direction: column;
+    width:990px;
+    height:670px;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url(assets/images/retro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .esq_column,
 .dir_column{
     display:flex;
@@ -334,4 +346,71 @@ nav a {
     word-spacing:2px ;
     font-size:40px;
     text-align: center;
+}
+.section5{
+    display:flex;
+    justify-content:center;
+    background-color:black;
+    width:inherit;
+}
+.section5 .esq_column{
+    display:flex;
+    flex-wrap:wrap;
+    width:600px;
+    height:550px;
+    justify-content: space-between;
+    align-items:center;
+}
+.section5 .dir_column{
+    display:flex;
+    flex-wrap:wrap;
+    width:600px;
+    height:550px;
+    justify-content: space-around;
+    align-items:center;
+    transition:all .5s linear;
+}
+.container4 h1, .container4 .sing{
+    font-family:'Roboto';
+    font-weight:bold ;
+    color:white;
+    text-shadow:2px 2px 0 black;
+    text-transform: uppercase;
+    word-spacing:2px ;
+    font-size:30px;
+    text-align: center;
+}
+.down_retro{
+    width:auto;
+    height:auto;
+    padding:5px;
+    border-radius: 15px;
+    background-color:#363923;
+    font-family:'Roboto';
+    font-weight:bold ;
+    color:white;
+    text-shadow:2px 2px 0 black;
+    text-transform: uppercase;
+    word-spacing:2px ;
+    font-size:30px;
+    text-align: center;
+    transition:all 0.3s linear;
+    
+}
+.down_retro:hover{
+    background-color: #cbf700;
+    padding:25px;
+    border:3px solid #fff;
+    text-shadow: 0 1px 0 #000;
+}
+.section5 a{
+    text-decoration: none;
+}
+.section5 a:hover{
+    text-decoration:none;
+}
+
+.section5 .dir_column:hover{
+    background-color:rgba(61, 60, 60, 0.76);
+    border-radius: 30px;
 }
