@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menumobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+        </script>
 </head>
 <body>
     <header>
@@ -18,6 +29,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menumobile">
+                        <div class="mr"></div>
+                        <div class="mr"></div>
+                        <div class="mr"></div>
+                    </div>
                     <ul>
                         <li><a href="https://www.dofus.com/pt" target="_blank">HOME</a></li>
                         <li><a href="https://www.dofus.com/pt/mmorpg/enciclopedia/equipamentos" target="_blank">Equips</a></li>
