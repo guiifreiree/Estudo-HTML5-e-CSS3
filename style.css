@@ -531,6 +531,7 @@ footer label{
     }
     nav a{
         font-size:15px;
+        color:#cbf700;
     }
     .menumobile{
         display:flex;
